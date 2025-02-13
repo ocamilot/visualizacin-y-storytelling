@@ -1,0 +1,12 @@
+name: Imprimir HOLA
+
+on:
+  workflow_dispatch:  # Permite ejecutar el workflow manualmente
+
+jobs:
+  say_hello:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Imprimir mensaje
+        run: echo "HOLA"
