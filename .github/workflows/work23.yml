@@ -1,4 +1,4 @@
-name: Imprimir HOLA
+name: Imprimir Hi
 
 on:
   workflow_dispatch:  # Permite ejecutar el workflow manualmente
